@@ -22,6 +22,9 @@ Or install it yourself as:
 
 ```
 $ ojad くる
+```
+
+```
 Group: 来る・来ます
 Dictionary: くる
 Polite: きます
@@ -35,6 +38,54 @@ Passive: こられる
 Imperative: こい
 Potential: こられる
 Volitional: こよう
+```
+
+```
+$ ojad する
+```
+
+```
+Group: 擦る・擦ります
+Dictionary: する
+Polite: すります
+Te: すって
+Ta: すった
+Negative: すらない
+Past negative: すらなかった
+Ba: すれば
+Causative: すらせる
+Passive: すられる
+Imperative: すれ
+Potential: すれる
+Volitional: すろう
+--------------------------------------------------------------------------------
+Group: 刷る・刷ります
+Dictionary: する
+Polite: すります
+Te: すって
+Ta: すった
+Negative: すらない
+Past negative: すらなかった
+Ba: すれば
+Causative: すらせる
+Passive: すられる
+Imperative: すれ
+Potential: すれる
+Volitional: すろう
+--------------------------------------------------------------------------------
+Group: する・します
+Dictionary: する
+Polite: します
+Te: して
+Ta: した
+Negative: しない
+Past negative: しなかった
+Ba: すれば
+Causative: させる
+Passive: される
+Imperative: しろ, せよ
+Potential: できる
+Volitional: しよう
 ```
 
 ## Development
