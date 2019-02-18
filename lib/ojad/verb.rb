@@ -1,27 +1,25 @@
 # frozen_string_literal: true
 
-require "nokogiri"
-
 module OJAD
-  class VerbPresenter
+  class Verb
     def initialize(document)
       @document = document
     end
 
     def to_human
-      puts "Group: #{group}"
-      puts "Dictionary: #{dictionary}"
-      puts "Polite: #{polite}"
-      puts "Te: #{te}"
-      puts "Ta: #{ta}"
-      puts "Negative: #{negative}"
-      puts "Past negative: #{past_negative}"
-      puts "Ba: #{ba}"
-      puts "Causative: #{causative}"
-      puts "Passive: #{passive}"
-      puts "Imperative: #{imperative}"
-      puts "Potential: #{potential}"
-      puts "Volitional: #{volitional}"
+      "Group: #{group}\n" \
+      "Dictionary: #{dictionary}\n" \
+      "Polite: #{polite}\n" \
+      "Te: #{te}\n" \
+      "Ta: #{ta}\n" \
+      "Negative: #{negative}\n" \
+      "Past negative: #{past_negative}\n" \
+      "Ba: #{ba}\n" \
+      "Causative: #{causative}\n" \
+      "Passive: #{passive}\n" \
+      "Imperative: #{imperative}\n" \
+      "Potential: #{potential}\n" \
+      "Volitional: #{volitional}\n"
     end
 
     private

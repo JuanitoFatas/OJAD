@@ -14,12 +14,16 @@ module OJAD
     end
 
     def start
-      Result.new(response).to_human
+      $stdout.puts(result_for_human)
     end
 
     private
 
     attr_reader :arguments
+
+    def result_for_human
+      Result.new(response).to_human
+    end
 
     def response
       Client.call(arguments.first)
