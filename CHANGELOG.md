@@ -2,6 +2,10 @@
 
 ## 0.0.2
 
+- `---` new line separator in its own line
+
+## 0.0.2
+
 - Improve output
 - Fix nokogiri require in wrong place
 

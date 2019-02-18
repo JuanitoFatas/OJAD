@@ -20,7 +20,7 @@ module OJAD
 
     attr_reader :response
 
-    LINE = "-"*80
+    LINE = "-"*80 + "\n"
 
     def html
       @_response_string ||= response.body.to_s
