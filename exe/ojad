@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+# Exit cleanly from an early interrupt
+Signal.trap("INT") { abort }
+
+require_relative "../lib/ojad/cli"
+
+OJAD::CLI.start(arguments: ARGV)
