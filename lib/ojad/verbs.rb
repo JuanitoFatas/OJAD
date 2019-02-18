@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "verb_presenter"
+require "nokogiri"
+
+require_relative "verb"
 
 module OJAD
   class Verbs
@@ -10,7 +12,7 @@ module OJAD
 
     def to_a
       verbs.map do |verb_document|
-        VerbPresenter.new(verb_document)
+        Verb.new(verb_document)
       end
     end
 
