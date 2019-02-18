@@ -7,7 +7,7 @@ A Ruby Client to interact with [OJAD][ojad].
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ojad'
+gem "ojad"
 ```
 
 And then execute:
@@ -21,9 +21,20 @@ Or install it yourself as:
 ## Usage
 
 ```
-ojad search くる
-
-来る・来ます くる きます きて きた こない こなかった くれば こさせる こられる こい こられる こよう
+$ ojad くる
+Group: 来る・来ます
+Dictionary: くる
+Polite: きます
+Te: きて
+Ta: きた
+Negative: こない
+Past negative: こなかった
+Ba: くれば
+Causative: こさせる
+Passive: こられる
+Imperative: こい
+Potential: こられる
+Volitional: こよう
 ```
 
 ## Development
