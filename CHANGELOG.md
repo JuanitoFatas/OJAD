@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.5
+
+- Improve display of output
+
 ## 0.0.4
 
 - Improve `result.rb`, remove a detail that result should not know
