@@ -6,8 +6,8 @@ module OJAD
       @http_response = http_response
     end
 
-    def body
-      @body ||= http_response.body
+    def html
+      http_response.body.to_s
     end
 
     def success?
