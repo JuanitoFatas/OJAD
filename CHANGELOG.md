@@ -4,7 +4,7 @@
 
 - Improve `result.rb`, remove a detail that result should not know
 
-## 0.0.2
+## 0.0.3
 
 - `---` new line separator in its own line
 
