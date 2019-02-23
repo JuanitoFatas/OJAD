@@ -25,7 +25,7 @@ $ ojad くる
 ```
 
 ```
-Group: 来る・来ます
+Verb: 来る・来ます
 Dictionary: くる
 Polite: きます
 Te: きて
@@ -45,7 +45,7 @@ $ ojad する
 ```
 
 ```
-Group: 擦る・擦ります
+Verb: 擦る・擦ります
 Dictionary: する
 Polite: すります
 Te: すって
@@ -59,7 +59,7 @@ Imperative: すれ
 Potential: すれる
 Volitional: すろう
 --------------------------------------------------------------------------------
-Group: 刷る・刷ります
+Verb: 刷る・刷ります
 Dictionary: する
 Polite: すります
 Te: すって
@@ -73,7 +73,7 @@ Imperative: すれ
 Potential: すれる
 Volitional: すろう
 --------------------------------------------------------------------------------
-Group: する・します
+Verb: する・します
 Dictionary: する
 Polite: します
 Te: して

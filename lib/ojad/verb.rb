@@ -6,8 +6,9 @@ module OJAD
       @document = document
     end
 
+    # TODO: parse the verb group
     def to_human
-      "Group: #{group}\n" \
+      "Verb: #{group}\n" \
       "Dictionary: #{dictionary}\n" \
       "Polite: #{polite}\n" \
       "Te: #{te}\n" \
