@@ -23,7 +23,7 @@ module OJAD
     LINE = "-"*80 + "\n"
 
     def html
-      @_response_string ||= response.body.to_s
+      response.html
     end
 
     def verbs_for_human
